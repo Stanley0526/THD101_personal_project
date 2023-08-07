@@ -336,7 +336,7 @@ body {
     background: #A46822;
     position: absolute;
     top: 520px;
-    left: -120px;
+    left: -160px;
     transform: rotate(90deg);
     opacity: .5;
     z-index: -1;
@@ -348,7 +348,7 @@ body {
     writing-mode: vertical-rl;
     position: absolute;
     top: 870px;
-    left: 125px;
+    left: 85px;
     font-size: 64px;
     font-family: 'Sedan SC', sans-serif;
     color: #A46822;

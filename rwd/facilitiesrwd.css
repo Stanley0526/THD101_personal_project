@@ -1,6 +1,18 @@
 @import url('allRWD.css');
 
 @media screen and (max-width:1550px){
+  
+
+}
+
+@media screen and (max-width:1440px){
+    .banner-img  img{
+        width: 100% ;
+        height: 90vh;
+    
+        /* height: 850px; */
+    }
+
     .main::before{
         display: none;
      
@@ -9,22 +21,12 @@
      .main::after{
          display: none;
      }
-
-}
-
-@media screen and (max-width:1440px){
-    .banner-img  img{
-        width: 100vw ;
-        height: 90vh;
-    
-        /* height: 850px; */
-    }
 }
 
 
 @media screen and (max-width:900px){
     .banner-img  img{
-        width: 100vw ;
+        width: 100% ;
         height: 60vh;
     
         /* height: 850px; */
