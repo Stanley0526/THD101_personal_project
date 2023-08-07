@@ -343,7 +343,7 @@ body {
     background: #A46822;
     position: absolute;
     top: 470px;
-    left: -100px;
+    left: -135px;
     transform: rotate(90deg);
     opacity: .5;
     z-index: -1;
@@ -355,7 +355,7 @@ body {
     writing-mode: vertical-rl;
     position: absolute;
     top: 720px;
-    left: 75px;
+    left: 35px;
     height: 600px;
     font-size: 64px;
     font-family: 'Sedan SC', sans-serif;
