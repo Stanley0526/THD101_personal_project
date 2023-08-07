@@ -120,16 +120,16 @@
 
     /* ----------------------- All news --------------------------- */
 
-.all-news{
+    .all-news{
     margin-top: 100px;
-}
+    }
 
-.all-news h1{
+    .all-news h1{
     letter-spacing: .3em;
     font-size: 24px; 
-}
+    }
 
-.allnewsCard{
+    .allnewsCard{
     width: 95vw;
     margin-top: 80px;
     /* border: 1px solid blue; */
@@ -137,9 +137,9 @@
     flex-direction: column; 
     /* justify-content: center; */
   
-}
+    }
 
-.card{
+    .card{
     margin-left: 0;
     margin: 0 auto;
   
@@ -148,10 +148,10 @@
     width:95vw;
     height: auto;
     
-}
+    }
 
 
-.card .span1{
+    .card .span1{
 
     width: 90px;
     height: 30px;
@@ -163,52 +163,52 @@
     z-index: 2;
     color: white;
     font-size: 14px;
-}
+    }
 
 
 
 
-.card-photo{
+    .card-photo{
     width:95vw;
     height: auto;
-}
+    }
 
-.text{
+    .text{
     margin-top: 10px;
     text-align: left;
     
     
-}
+    }
 
 
-.text h2{
+    .text h2{
     font-size: 16px;
 
  
-}
+    }
 
-.text > p{
+    .text > p{
     font-size:14px;
-}
+    }
 
 
 
 /* -------more button------- */
-.more-new{
+    .more-new{
     text-align: center;
     /* margin-top: 80px; */
     position: relative;
-}
+    }
 
-.more-new a{
+    .more-new a{
     /* position: absolute; */
     letter-spacing: .1em;
     text-decoration: none;
     color: #A46822;
-}
+    }
 
 
-.more-new a::after{
+    .more-new a::after{
     content: "";
  
     position: absolute;
@@ -221,10 +221,10 @@
     transform: translate(-52%);
     /* margin-top: 20px; */
     
-}
+    }
 
 
-.more-new a:hover::after{
+    .more-new a:hover::after{
     content: "";
  
     position: absolute;
@@ -238,13 +238,13 @@
     transition: .3s;
     /* margin-top: 20px; */
     
-}
+    }
 
-.noContent {
+    .noContent {
   color: #A46822!important;
   background-color: transparent !important;
   pointer-events: none;
-}
+    }
 
 
     
