@@ -613,10 +613,7 @@ body {
 .card-item{
     text-align: center;
     text-decoration: none;
-    /* width: 20vw; */
-    /* width: 300px; */
-    
-    /* position: relative; */
+ 
 }
 
 .card-image > span.span1{
