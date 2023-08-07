@@ -1,0 +1,750 @@
+@import url('allRWD.css');
+
+
+@media screen and (max-width:1280px){
+
+
+    
+
+    .room{
+        width: 95%;
+       
+        margin-top: 60px;
+    }
+
+    
+
+    .room h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+
+    .room-test.one-time{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .room-test.one-time .p1{
+        text-align: center;
+        font-size: 20px;
+        /* padding: 20px 0 0; */
+        letter-spacing: 0.5em;
+        padding-left: 7.5px;
+        position: relative;
+        /* border: 1px solid red; */
+        width: 150px;
+        height: 40px;
+        margin: 0 auto; 
+        margin-top: 20px;
+
+    }
+    .room-test.one-time .p2{
+        text-align: center;
+        font-size: 20px;
+        /* padding: 20px 0 0; */
+        letter-spacing: 0.5em;
+        padding-left: 7.5px;
+        position: relative;
+        /* border: 1px solid red; */
+        width: 200px;
+        height: 40px;
+        margin: 0 auto; 
+        margin-top: 20px;
+
+    }
+
+    .room-test.one-time .p1::after{
+        content: "";
+        width: 10px;
+        height: .7em;
+        display: block;
+        position: absolute;
+        background: #2EA9DF;
+        top: .8vw;
+        left: 0vw;
+      
+
+    }
+
+
+    .room-test.one-time .p2::after{
+        content: "";
+        width: 10px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        background: #2EA9DF;
+        top:.8vw;
+        left: 0px;
+
+    }
+
+    .room-test .slide img{
+        padding: 0;
+        margin: 0 auto;
+        width: 50vw;
+       
+    }
+
+
+    .room-photo{
+       
+        display: none;
+     
+    }
+
+  /* ------------------------ 設施 --------------------------- */
+
+    .facilities-introduce{
+        width: 95%;
+        height: auto;
+        /* display: block; */
+    }
+
+    .hotel-Facilities h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+  /* ------------------------ 餐廳 --------------------------- */
+
+  .dining-Events  .slide img{
+    width: 50vw;
+    height: 40vh;
+    
+}
+
+    .dining-Events h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    /* ------------------------ 風景 --------------------------- */
+
+
+    
+    .view h2::after{
+        width: 60%;
+    }
+
+    .view-container{
+       
+    
+        width: 60vw;
+      
+        margin: 0 auto;
+    }
+    
+    
+    
+    .view-container img{
+        border: 10px solid rgb(136, 136, 136);
+        box-shadow: 2px 2px 10px #333333;
+    
+        width: 60vw;
+        padding: 0;
+        /* flex-shrink: 0; */
+    }
+
+
+   
+}
+
+/* -----------------------RWD 768----------------------- */
+
+@media screen and (max-width:900px){
+    
+
+
+
+     /* -----------最新消息----------- */
+     .news{
+        padding-top: 50px;
+    }
+
+    .news h1{
+        font-size: 26px;
+        padding-left: 39px;
+    }
+
+    .news h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+        
+    }
+
+    .news h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    
+    .news-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-container > span::after{
+        
+        height: 100%;
+        width: 100%;
+        
+    
+    }
+
+
+    .news-photo{
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    .news-photo img{
+        width: 95vw;
+        /* margin-left: 6px; */
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .bars1{
+        display: none;
+    }
+    .bars2{
+        display: none;
+    }
+
+    .news-content{
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .news-content h3{
+        font-size: 1.3em;
+        
+        
+    }
+    
+    .news-content p{
+        
+        font-size: 16px;
+    }
+    
+    .news-content a{
+        font-size: 15px;
+        
+    }
+
+    .news-content a::after{
+    
+        content: "";    
+        /* border: 1px solid #A46822; */
+        position: absolute;
+        display: block;
+        height: 3px;
+        width: 16%;
+        left: 50%;
+        transform: translate(-50%);
+        background: white;
+        margin-top: 3px;
+    }
+    
+}
+
+/* -----------------------RWD 768----------------------- */
+@media screen and (max-width:768px) {
+    
+    /* -------------------- 房間介紹 -------------- */
+    .room{
+        width: 95vw;
+       
+        margin-top: 60px;
+    }
+
+    .room h1{
+        font-size: 26px;
+        padding-left: 39px;
+    }
+
+    .room h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .room h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+
+    .room-test.one-time{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .room-test.one-time .p1{
+        text-align: center;
+        font-size: 20px;
+        /* padding: 20px 0 0; */
+        letter-spacing: 0.5em;
+        padding-left: 7.5px;
+        position: relative;
+        /* border: 1px solid red; */
+        width: 150px;
+        height: 40px;
+        margin: 0 auto; 
+        margin-top: 20px;
+
+    }
+    .room-test.one-time .p2{
+        text-align: center;
+        font-size: 20px;
+        /* padding: 20px 0 0; */
+        letter-spacing: 0.5em;
+        padding-left: 7.5px;
+        position: relative;
+        /* border: 1px solid red; */
+        width: 200px;
+        height: 40px;
+        margin: 0 auto; 
+        margin-top: 20px;
+
+    }
+
+    .room-test.one-time .p1::after{
+        content: "";
+        width: 10px;
+        height: .7em;
+        display: block;
+        position: absolute;
+        background: #2EA9DF;
+        top: 2.3vw;
+        left: 0vw;
+      
+
+    }
+
+
+    .room-test.one-time .p2::after{
+        content: "";
+        width: 10px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        background: #2EA9DF;
+        top:2.3vw;
+        left: 0px;
+
+    }
+
+
+    .room-test .slide img{
+        padding: 0;
+        margin: 0 auto;
+        width: 95vw;
+        /* height: 48vh; */
+    }
+
+
+
+    .room-photo{
+       
+        display: none;
+        /* margin: 0 auto; */
+    }
+
+
+    .room-introduce{
+        /* width: 95%; */
+        height: auto;
+        display: block;
+
+    }
+
+    .room-introduce p{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .room-introduce a{
+        
+        letter-spacing: .1em;
+        padding-left:3vw ;    
+    }
+
+    
+
+    .room-introduce a::after{
+        margin-top: 3px;
+        left: 2.3vw;
+        width: 70px;  
+    }
+    .room-introduce a:hover::after{
+        left: 1.5vw;
+        width: 80px; 
+        
+    }
+
+    /* ---------------  hotel-Facilities  --------------- */
+    .hotel-Facilities {
+        /* width: 100%; */
+        padding-top: 80px ;
+        
+        position: relative;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    .hotel-Facilities h1{
+        font-size: 26px;
+        padding-left: 39px;
+    }
+
+
+    .hotel-Facilities h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+
+    .hotel-Facilities h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    .facilities-introduce{
+        width: 95%;
+        height: auto;
+        display: block;
+    }
+
+    .facilities-introduce p{
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .facilities-introduce a{
+        
+        letter-spacing: .1em;
+        padding-left:3vw ;    
+
+    }
+
+    
+
+    .facilities-introduce a::after{
+        margin-top: 3px;
+        left: 2.3vw;
+        width: 70px;   
+    }
+    .facilities-introduce a:hover::after{
+        left: 1.5vw;
+        width: 80px; 
+    }
+
+    .item{
+        display: none;
+    }
+
+    .Facilities-test.single-item{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .Facilities-test .slide img{
+        padding: 0;
+        margin: 0 auto;
+        width: 95vw;
+        height: 50vh;
+       
+    }
+
+
+    
+    .Facilities-test.single-item p{
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 0 0;
+        letter-spacing: 0.5em;
+        padding-left: 7.5px;
+        position: relative;
+    }
+
+    .Facilities-test.single-item .p3::after{
+        content: "";
+        width: 10px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        background: #2EA9DF;
+        top: 29px;
+        left: 80px;
+
+    }
+
+    .Facilities-test.single-item .p4::after{
+        content: "";
+        width: 10px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        background: #2EA9DF;
+        top: 29px;
+        left: 130px;
+
+    }
+
+    /* ----------------- 餐廳 -------------- */
+    .dining-Events {
+       
+        margin-top: 100px ;
+        
+
+    }
+
+    .dining-Events h1{
+        font-size: 26px;
+        padding-left: 39px;
+    }
+
+
+    .dining-Events h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+
+    .dining-Events h2::after{
+        width: 60%;
+        margin-top: 5px;
+    }
+
+    .slider .slide img{
+        padding: 0;
+        margin: 0 auto;
+        width: 95vw;
+       
+    }
+    
+
+    .slide.r1{
+        /* overflow: hidden; */
+        box-sizing: border-box;
+    }
+
+    .test1{
+        /* overflow: hidden; */
+        width: 100%;
+        background: linear-gradient(45deg, rgba(46, 169, 223, 0.8) 0%,rgba(46, 169, 223,0.4) 60%,rgba(46, 169, 223,0) 100%);
+        left: 0px;
+       
+    }
+    
+    .test1 a{
+      
+        font-size: 14px;
+
+    }
+    
+
+    
+    .test1 a::after{
+       /* transform: translate(-52%); */
+        width: 48px;    
+     
+    }
+    
+    .test1 a:hover::after{
+      
+    
+        width: 48px;    
+     
+    }
+
+    /* --------------- view ---------------- */
+    .view{
+        margin-top: 100px;
+        margin-bottom: 30px;
+ 
+    }
+    
+    
+    .view h1{
+        font-size: 26px;
+        padding-left: 39px;
+    }
+    
+    .view h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .view h2::after{
+        width: 60%;
+    }
+    
+
+.view-container{
+       
+    
+    width: 95vw;
+  
+    margin: 0 auto;
+}
+
+
+
+.view-container img{
+    border: 10px solid rgb(136, 136, 136);
+    box-shadow: 2px 2px 10px #333333;
+
+    width: 95vw;
+    padding: 0;
+    /* flex-shrink: 0; */
+}
+
+
+
+    
+    
+}
+
+
+
+/* -------------------------------RWD 428------------------------------ */
+@media screen and (max-width:428px){
+    html,body{
+        font-size: 15px;
+        /* width: 100%; */
+        /* height: auto; */
+        
+    }
+    
+
+    
+
+/* ----------- 影片 ----------- */
+
+    .banner{
+        width: 100vw;
+        height: 45vh;
+        
+    }
+
+    .banner::after{
+        width: 100vw;
+    }
+    
+    .video-wrapper {
+        width: auto;
+        height: auto;
+    }
+    .video-wrapper > video{
+        
+        height: 50vh;
+        width: 100vw;
+        object-fit: cover;
+        /* z-index: -5; */
+        /* background-attachment: fixed; */
+    }
+
+    .banner-height{
+        /* z-index: -20; */
+        height: 13.8rem;
+        display: block;
+        
+        /* background: #000; */
+    
+    }
+
+    .banner > h1{
+        position: absolute;
+        /* display: block; */
+        
+        left: 19vw;
+        top: 0px;
+        font-size: 26px;
+        /* border: 1px solid red; */
+        
+    }
+
+    @keyframes h1{
+        0%{
+            top: -50vh;
+            transform: translateY(0);
+        }
+        100%{
+            top: 13vh;
+            transform: translateY(0);
+        }
+    }
+    .banner h2{
+        position: absolute;
+        display: block;
+        
+        /* left: 10px; */
+        top: 160px;
+        font-size: 16px;
+    }
+
+    @keyframes h2{
+        0%{
+            left: -150vw;
+            transform: translateY(0);
+        }
+        100%{
+            left: 9vw;
+            transform: translateY(0);
+        }
+    }
+
+   
+/* ---------------------- wrapper-other ------ */
+
+    .other-wrapper{
+        
+        background-image: url("");
+        background-color: white;
+        width: 100vw;
+       
+    }
+
+/* ---------------------- 房間介紹 ---------------------- */
+
+
+.room-introduce a{
+    letter-spacing: .1em;
+    padding-left:5vw ; 
+}
+
+
+
+/* ---------------------- 設施介紹 ---------------------- */
+
+.Facilities-test .slide img{
+    padding: 0;
+    margin: 0 auto;
+    width: 95vw;
+    height: 35vh;
+   
+}
+
+
+
+.facilities-introduce a{
+        
+    letter-spacing: .1em;
+    padding-left:5vw ;    
+
+}
+
+/* ---------------------- 設施介紹 ---------------------- */
+
+.test1{
+    /* overflow: hidden; */
+    width: 95%;
+    background: linear-gradient(45deg, rgba(46, 169, 223, 0.8) 0%,rgba(46, 169, 223,0.4) 60%,rgba(46, 169, 223,0) 100%);
+    left: 10px;
+   
+}
+    
+
+}

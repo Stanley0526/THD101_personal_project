@@ -1,0 +1,181 @@
+@import url('allRWD.css');
+
+@media screen and (max-width:1600px){
+    .main::before{
+        display: none;
+     
+     }
+     
+     .main::after{
+         display: none;
+     }
+}
+
+@media screen and (max-width:1440px){
+    .banner-img  img{
+        width: 100vw ;
+        height: 90vh;
+    
+        /* height: 850px; */
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    /* ------------------ room ----------------- */
+
+.room-wrapper{
+    
+    width: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.room-item{
+    /* border: 2px solid blue; */
+    width: 95vw;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    /* margin-left: px; */
+}
+
+.room-photo img{
+
+    width: 95vw;
+}
+
+.room-content{
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.room-content h3{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.room-content p{
+    font-size: 14px;
+}
+
+.room-benefits{
+ 
+    padding: 0 20px;
+    margin-top: 30px;
+ 
+    
+}
+
+.room-benefits::after{
+    
+    width: 85vw;
+   
+
+}
+
+.room-benefits-label{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.room-benefits-list{
+    font-size: 12px;
+  
+    
+}
+
+
+
+.room-benefits-list .span1{
+    padding-right: 5px;
+}
+
+.room-benefits-list .span2{
+  
+    padding-right: 5px;
+
+}
+
+
+.room-utility{
+
+    margin-top: 70px;
+    text-align: center;
+}
+
+.room-utility a{
+    text-decoration: none;
+    /* padding-left: 50px; */
+
+}
+
+.room-utility .a1{
+    outline: 1px solid;
+    font-size: 14px;
+  
+}
+
+.room-utility .a1:hover{
+    background: #e5e5e5;
+}
+
+.room-utility .a2{
+   
+    font-size: 14px;
+   
+}
+}
+
+
+@media screen and (max-width:900px){
+    .banner-img  img{
+        width: 100vw ;
+        height: 60vh;
+    
+        /* height: 850px; */
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width:428px){
+    
+    /* ------------ banner ----------- */
+    .banner{
+        padding-top: 75px;
+    }
+
+
+    .banner-img  img{
+        width: 100%;
+        height: 32vh;
+    }
+
+    .banner-title{
+        display: none;
+        
+    }
+    
+
+/* ------------- mian title---------- */
+
+
+    .main-title h1{
+        padding: 0 20px;
+        font-size: 2em;
+        letter-spacing: 1em;
+        /* padding-left: 40px; */
+    }
+
+
+
+
+
+}

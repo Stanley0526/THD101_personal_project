@@ -1,0 +1,159 @@
+@import url('allRWD.css');
+
+@media screen and (max-width:1550px){
+    .main::before{
+        display: none;
+     
+     }
+     
+     .main::after{
+         display: none;
+     }
+
+}
+
+@media screen and (max-width:1440px){
+    .banner-img  img{
+        width: 100vw ;
+        height: 90vh;
+    
+        /* height: 850px; */
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .banner-img  img{
+        width: 100vw ;
+        height: 60vh;
+    
+        /* height: 850px; */
+    }
+
+
+      /* ----------- facilities ----------- */
+
+.facilities-wrapper{
+    width: auto;
+
+    margin-top: 80px;
+ 
+}
+
+.facilities-item{
+     text-align: center;
+     margin-bottom: 100px;
+     flex-direction: column;
+
+}
+
+.facilities-pic > img{
+    
+    width: 95vw;
+    order: 0;
+}
+
+
+.facilities-content{
+    /* align-items: center */
+    text-align: center;
+    width: auto;
+    padding: 0 40px;    
+    position: relative;
+
+
+    order: 1;
+    /* border: 1px solid red; */
+}
+
+.facilities-content h2{
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.facilities-content p{
+    font-size: 14px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+
+.facilities-button a{
+    font-size: 14px;
+}
+
+.facilities-button a::after{
+   
+    transform: translate(-50.5%);
+    width: 80px;    
+
+  
+}
+
+.facilities-button a:hover::after{
+    
+   
+    width: 110px;
+    
+    transform: translate(-50.5%);
+  
+}
+
+
+}
+
+
+@media screen and (max-width:428px){
+   
+
+    /* ------------ banner ----------- */
+    .banner{
+        padding-top: 75px;
+    }
+
+
+    .banner-img  img{
+        width: 100%;
+        height: 32vh;
+    }
+
+    .banner-title{
+        display: none;
+        
+    }   
+
+/* ---------------- main top --------------------- */
+    .main-top{
+
+        margin-left: 8vw;
+
+    }
+    .main::before{
+    display: none;
+
+    }
+
+    .main::after{
+        display: none;
+    }
+
+/* ------------- mian title---------- */
+
+
+    .main-title h1{
+        padding: 0 20px;
+        font-size: 2em;
+        letter-spacing: .3em;
+        padding-left: 6px;
+    }
+
+
+  
+
+
+
+
+}

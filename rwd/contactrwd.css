@@ -1,0 +1,300 @@
+@import url('allRWD.css');
+
+
+@media screen and (max-width:1440px){
+    .main::before{
+        display: none;
+     
+     }
+     
+     .main::after{
+         display: none;
+     }
+
+}
+
+@media screen and (max-width:900px){
+
+    .banner-title{
+        /* border: 1px solid; */
+        position: absolute;
+        right: 1vw;
+        top: 10vh;
+        
+    }
+    
+    .banner-img  img{
+        width: 100vw ;
+        height: 60vh;
+    
+     
+    }
+/* -------------------- contact-main ------------------*/
+
+.contact-main{
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.location{
+    order: 1;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+
+.location iframe{
+    width: 100vw;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.lcation-content{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;  
+    padding-left: 20px;
+    /* width: 20vw; */
+}
+
+.lcation-content p {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.form{
+    /* border: 1px solid; */
+    width: 92%;
+    
+    padding: 0 20px;
+    /* margin-bottom: 500px; */
+
+    order: 0;
+}
+
+
+
+/* 
+.form-item{
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+} */
+
+
+.form-item label{
+    font-weight: 200;
+    /* padding-bottom: 20px; */
+
+}
+
+.form-item select{
+    width: 93vw;
+    color: black;
+    font-size: 18px;
+    padding-left: 3px;
+    background:white;
+}
+    
+
+
+ .form-item input{
+    padding: 8px 10px 7px;
+    width: 90vw;
+    line-height: 20px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    border: 2px solid #2EA9DF;
+    border-radius: 10px;
+
+}
+
+.form-item input:focus{
+    border: 0;
+}
+
+.form-item textarea{
+    width: 90vw;
+    border: 2px solid #2EA9DF;
+    font-size: 20px;
+    
+    border-radius: 10px;
+} 
+
+
+.submit {
+    text-align: center;
+    
+}
+
+.submit button{
+    width: 25%;
+    padding: 10px 8px;
+    
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #242021;
+    color: white;
+    border: 0;
+    font-size: 18px;
+}
+
+
+}
+
+
+@media screen and (max-width:480px){
+    .form{
+        /* border: 1px solid; */
+        width: 90vw;
+        padding: 0 20px;
+        /* margin-bottom: 500px; */
+    
+        order: 0;
+    }
+    
+    
+    
+    
+    .form-item{
+        width: 95vw;
+    
+        margin-bottom: 20px;
+    }
+    
+    
+    .form-item label{
+        font-weight: 200;
+        /* padding-bottom: 20px; */
+    
+    }
+    
+    .form-item select{
+        width: 90vw;
+        color: black;
+        font-size: 18px;
+        padding-left: 3px;
+        background:white;
+    }
+        
+    
+    
+    .form-item input{
+        padding: 8px 10px 7px;
+        width: 84vw;
+        line-height: 20px;
+        height: 20px;
+        font-size: 18px;
+        font-weight: 200;
+        border: 2px solid #2EA9DF;
+        border-radius: 10px;
+    
+    }
+    
+    .form-item input:focus{
+        border: 0;
+    }
+    
+    .form-item textarea{
+        width: 84vw;
+        border: 2px solid #2EA9DF;
+        font-size: 20px;
+        
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:428px){
+    
+
+    /* ------------ banner ----------- */
+    .banner{
+        padding-top: 75px;
+    }
+
+
+    .banner-img  img{
+        width: 100%;
+        height: 32vh;
+    }
+
+    .banner-title{
+        display: none;
+        
+    }   
+
+/* ---------------- main top --------------------- */
+.main-top{
+
+    margin-left: 8vw;
+
+}
+.main::before{
+   display: none;
+
+}
+
+.main::after{
+    display: none;
+}
+
+/* ------------- mian title---------- */
+
+
+.main-title h1{
+    padding: 0 20px;
+    font-size: 2em;
+    letter-spacing: 1em;
+    /* padding-left: 40px; */
+}
+
+
+
+
+
+/* ---------- contact --------- */
+.contact-title{
+    display: flex;
+    /* justify-content: left; */
+    padding: 0 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    /* border: 1px solid; */
+    line-height: 30px;
+    letter-spacing: .1em;
+
+    
+    
+}
+
+
+
+
+
+
+/* ------------------- bottom ---------------------- */
+.bottom{
+    background-color: #2EA9DF;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+}

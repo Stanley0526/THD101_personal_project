@@ -1,0 +1,316 @@
+@import url('allRWD.css');
+
+
+@media screen and (max-width:1440px){
+
+
+    .banner-img  img{
+        width: 100vw ;
+        height: 90vh;
+    
+        /* height: 850px; */
+    }
+
+
+
+    .main::before{
+        display: none;
+     
+     }
+     
+     .main::after{
+         display: none;
+     }
+
+
+     .news-photo{
+      
+        width:65vw;
+        /* height: auto; */
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .banner-img  img{
+        width: 100vw ;
+        height: 60vh;
+    
+        /* height: 850px; */
+    }
+
+
+    .main-news{
+
+        flex-direction: column;
+        width: auto;
+        margin-top: 80px;
+    
+    }
+    
+    
+    
+    .news-left{
+        
+        margin-right: 0;
+        margin: 0 auto;
+        width: auto;
+        
+        
+    }
+    
+    
+    .news-left span{
+    
+        font-size: 20px;
+        width: 130px;
+        height: 40px;
+        line-height: 40px;
+        top: 0px;
+        
+        
+    }
+    
+    
+    .news-photo{
+      
+        width:95vw;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .news-right{
+        /* background-color: #ebebeb; */
+        padding: 0;
+        /* border: 1px solid #51A6E1;   */
+    }
+    
+    
+    
+    .news-right h2{
+        font-size: 24px; 
+        letter-spacing: .3em;
+    }
+    
+    .news-right h3{
+        text-align: center;
+        /* padding: 0 20px; */
+        font-size: 14px;
+      
+    }
+    
+    .time{
+       
+        margin-bottom: 60px;    
+        font-size: 14px;
+    }
+    
+    
+    
+    .time li:not(:last-child)::after {
+        display: inline-block;
+        position: absolute;
+        /* margin: 0 2rem; */
+        content: "→";
+        left: 48%;
+        top: 1px;
+    }
+
+
+    /* ----------------------- All news --------------------------- */
+
+.all-news{
+    margin-top: 100px;
+}
+
+.all-news h1{
+    letter-spacing: .3em;
+    font-size: 24px; 
+}
+
+.allnewsCard{
+    width: 100vw;
+    margin-top: 80px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column; 
+    /* justify-content: center; */
+  
+}
+
+.card{
+    margin-left: 0;
+    margin: 0 auto;
+  
+    padding-bottom: 80px;
+    
+    width:95vw;
+    height: auto;
+    
+}
+
+
+.card .span1{
+
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    left: 0px;
+    top: -30px;
+    text-align: center;
+    letter-spacing: .1em;
+    z-index: 2;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+.card-photo{
+    width:95vw;
+    height: auto;
+}
+
+.text{
+    margin-top: 10px;
+    text-align: left;
+    
+    
+}
+
+
+.text h2{
+    font-size: 16px;
+
+ 
+}
+
+.text > p{
+    font-size:14px;
+}
+
+
+
+/* -------more button------- */
+.more-new{
+    text-align: center;
+    /* margin-top: 80px; */
+    position: relative;
+}
+
+.more-new a{
+    /* position: absolute; */
+    letter-spacing: .1em;
+    text-decoration: none;
+    color: #A46822;
+}
+
+
+.more-new a::after{
+    content: "";
+ 
+    position: absolute;
+    display: block;
+    height: 3px;
+    
+    left: 50%;
+    width: 70px;    
+    background: #A46822;
+    transform: translate(-52%);
+    /* margin-top: 20px; */
+    
+}
+
+
+.more-new a:hover::after{
+    content: "";
+ 
+    position: absolute;
+    display: block;
+    height: 1px;
+    
+    left: 50%;
+    width: 90px;    
+    background: #A46822;
+    transform: translate(-52%);
+    transition: .3s;
+    /* margin-top: 20px; */
+    
+}
+
+.noContent {
+  color: #A46822!important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+
+    
+}
+
+
+@media screen and (max-width:428px){
+   
+
+    /* ------------ banner ----------- */
+    .banner{
+        padding-top: 75px;
+    }
+
+
+    .banner-img  img{
+        width: 100%;
+        height: 32vh;
+    }
+
+    .banner-title{
+        display: none;
+        
+    }   
+
+/* ---------------- main top --------------------- */
+.main-top{
+
+    margin-left: 8vw;
+
+}
+.main::before{
+   display: none;
+
+}
+
+.main::after{
+    display: none;
+}
+
+/* ------------- mian title---------- */
+
+
+.main-title h1{
+    padding: 0 20px;
+    font-size: 2em;
+    letter-spacing: 1em;
+    /* padding-left: 40px; */
+}
+
+
+/* ----------- main news ------------------- */
+
+
+
+/* ------- line  ------ */
+.line span::after{
+    width: 75vw;
+    margin-top:100px;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+
+
+
+
+   
+
+}

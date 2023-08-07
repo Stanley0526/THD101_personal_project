@@ -1,0 +1,185 @@
+@import url('allRWD.css');
+
+@media screen and (max-width:1550px){
+    .main::before{
+        display: none;
+     
+     }
+     
+     .main::after{
+         display: none;
+     }
+
+}
+
+@media screen and (max-width:1200px){
+    /* -------------- restaurant ---------------- */
+
+.restaurant-pic{
+    /* margin-left: 250px; */
+    margin-top: 50px;
+    margin: 0 auto;
+
+}
+
+.restaurant-pic > img{
+    width: 95vw;
+    /* height: 400px; */
+}
+
+.restaurant-item{
+ 
+    width: auto;
+ 
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    flex-direction: column;
+}
+
+
+.restaurant-right{
+  
+    padding-left:0;
+    padding: 0 20px;
+}
+
+.restaurant-content{
+    text-align: center;
+    /* padding: 0 20px; */
+}
+
+.restaurant-content h2{
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.restaurant-content p{
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+.restaurant-opentime{
+    
+    
+    bottom: -120px;
+}
+
+.restaurant-label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.restaurant-list{
+    font-size: 14px;
+   
+} 
+
+.restaurant-button{
+    position: absolute;
+    right: 20px;
+    bottom: -120px;
+}
+
+.restaurant-button a{
+  
+   
+    font-size: 16px;
+   
+}
+
+/* ------- line  ------ */
+.line span::after{
+    
+    width: 90vw ;
+    /* height: 2px; */
+    /* background: #000; */
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    writing-mode: vertical-lr;
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+
+.bottom{
+   
+    margin-top: 160px;
+}
+}
+
+
+@media screen and (max-width:900px){
+
+    .banner-title{
+        /* border: 1px solid; */
+        position: absolute;
+        right: 1vw;
+        top: 23vh;
+        
+    }
+    
+    .banner-img  img{
+        width: 100vw ;
+        height: 60vh;
+    
+     
+    }
+}
+
+@media screen and (max-width:428px){
+
+    /* ------------ banner ----------- */
+    .banner{
+        padding-top: 75px;
+    }
+
+
+    .banner-img  img{
+        width: 100%;
+        height: 32vh;
+    }
+
+    .banner-title{
+        display: none;
+        
+    }   
+
+    
+
+/* ---------------- main top --------------------- */
+.main-top{
+
+    margin-left: 8vw;
+
+}
+.main::before{
+   display: none;
+
+}
+
+.main::after{
+    display: none;
+}
+
+/* ------------- mian title---------- */
+
+
+.main-title h1{
+    padding: 0 20px;
+    font-size: 2em;
+    letter-spacing: 1em;
+    /* padding-left: 40px; */
+}
+
+
+
+
+
+
+  
+}
+
