@@ -33,6 +33,82 @@
 
 
 @media screen and (max-width:900px){
+
+
+    /* ----------------------- All news --------------------------- */
+
+    .all-news{
+        margin-top: 100px;
+        }
+    
+        .all-news h1{
+        letter-spacing: .3em;
+        font-size: 24px; 
+        }
+    
+        .allnewsCard{
+        width: 95vw;
+        margin-top: 80px;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column; 
+        /* justify-content: center; */
+      
+        }
+    
+        .card{
+        margin-left: 0;
+        margin: 0 auto;
+      
+        padding-bottom: 80px;
+        
+        width:95vw;
+        height: auto;
+        
+        }
+    
+    
+        .card .span1{
+    
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        left: 0px;
+        top: -30px;
+        text-align: center;
+        letter-spacing: .1em;
+        z-index: 2;
+        color: white;
+        font-size: 14px;
+        }
+    
+    
+    
+    
+        .card-photo{
+        width:95vw;
+        height: auto;
+        }
+    
+        .text{
+        margin-top: 10px;
+        text-align: left;
+        
+        
+        }
+    
+    
+        .text h2{
+        font-size: 16px;
+    
+     
+        }
+    
+        .text > p{
+        font-size:14px;
+        }
+
+        
     .banner-img  img{
         width: 100% ;
         height: 60vh;
@@ -118,79 +194,7 @@
     }
 
 
-    /* ----------------------- All news --------------------------- */
-
-    .all-news{
-    margin-top: 100px;
-    }
-
-    .all-news h1{
-    letter-spacing: .3em;
-    font-size: 24px; 
-    }
-
-    .allnewsCard{
-    width: 95vw;
-    margin-top: 80px;
-    /* border: 1px solid blue; */
-    display: flex;
-    flex-direction: column; 
-    /* justify-content: center; */
-  
-    }
-
-    .card{
-    margin-left: 0;
-    margin: 0 auto;
-  
-    padding-bottom: 80px;
     
-    width:95vw;
-    height: auto;
-    
-    }
-
-
-    .card .span1{
-
-    width: 90px;
-    height: 30px;
-    line-height: 30px;
-    left: 0px;
-    top: -30px;
-    text-align: center;
-    letter-spacing: .1em;
-    z-index: 2;
-    color: white;
-    font-size: 14px;
-    }
-
-
-
-
-    .card-photo{
-    width:95vw;
-    height: auto;
-    }
-
-    .text{
-    margin-top: 10px;
-    text-align: left;
-    
-    
-    }
-
-
-    .text h2{
-    font-size: 16px;
-
- 
-    }
-
-    .text > p{
-    font-size:14px;
-    }
-
 
 
 /* -------more button------- */

@@ -604,7 +604,7 @@ body {
     padding-bottom: 120px;
     /* border: 1px solid #414141; */
     position: relative;
-    width: 470px;
+    width: 24.5vw;
     /* height: 50vh; */
     /* margin: 0 auto; */
     display: none;
@@ -652,7 +652,7 @@ body {
     width: 100%;
     color: #000000;
     text-align: right;
-    font-size: .7em;
+    font-size: .75vw;
     letter-spacing: 0.1em;
     
 
